@@ -8,4 +8,7 @@ class EmailAdressParser
   def initialize(emails)
     @emails = emails
   end
-end
+  
+  def parse
+    email_array= @emails
+  end
