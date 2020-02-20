@@ -10,6 +10,6 @@ class EmailAdressParser
   end
   
   def parse
-    email_array= @emails
+    email_array= @emails.split
   end
 end
