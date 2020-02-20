@@ -12,3 +12,4 @@ class EmailAdressParser
   def parse
     email_array= @emails
   end
+end
